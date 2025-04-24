@@ -114,6 +114,9 @@ Before starting the workshop, ensure you have:
    
    # Install Azure CLI
    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+
+   # Azure login]
+   az login
    ```
 
    > **Note**: If you encounter kernel errors in VS Code, try:
