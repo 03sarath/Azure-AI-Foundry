@@ -111,6 +111,9 @@ Before starting the workshop, ensure you have:
 
    # Install additional requirements (optional - for deploying repo or running mkdocs)
    uv pip install -r requirements.txt
+   
+   # Install Azure CLI
+   curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
    ```
 
    > **Note**: If you encounter kernel errors in VS Code, try:
@@ -118,7 +121,7 @@ Before starting the workshop, ensure you have:
    > 2. If kernel is not listed, run `python -m ipykernel install --user --name=.venv` again, or use the "Create New Kernel" wizard in VS Code to create a new Python environment
    > 3. Reload VS Code if needed
 
-6. **Choose your notebook environment**:
+7. **Choose your notebook environment**:
 
    **Option A: VS Code**
    - Install [VS Code Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
@@ -144,7 +147,7 @@ Before starting the workshop, ensure you have:
    jupyter notebook
    ```
 
-7. **Follow the Learning Path**:
+8. **Follow the Learning Path**:
     1. **Introduction** (`1-introduction/`)
        - `1-authentication.ipynb`: Set up your Azure credentials
        - `2-environment_setup.ipynb`: Configure your environment
